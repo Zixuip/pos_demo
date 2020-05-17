@@ -6,6 +6,6 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    { path: '/', name: 'Pos', component: Pos },
+    { path: '/', name: 'pos', component: Pos },
   ]
 })
