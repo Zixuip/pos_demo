@@ -10,6 +10,10 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
+import axios from 'axios'
+const http = axios
+Vue.prototype.$http = http
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
